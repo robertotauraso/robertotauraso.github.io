@@ -1,0 +1,1568 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Analisi Matematica 2 - Ingegneria</title>
+</head>
+<font color="#000000" face="Verdana">
+<div align="center">
+<font size="1"><strong>
+<!--webbot bot="HTMLMarkup" startspan --><SCRIPT language=JavaScript>
+<!--
+var gg = new Array("domenica","lunedi'","martedi'","mercoledi'","giovedi'","venerdi'","sabato");
+var mm = new Array("gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre");
+var lastUpdate = new Date(document.lastModified);
+var aa=lastUpdate.getYear()
+var ora=lastUpdate.getHours()
+var min=lastUpdate.getMinutes()
+if (ora<10)
+ora='0'+ ora
+if (min<10)
+min='0'+ min
+if (aa<1000)
+aa+=1900
+document.write("Pagina aggiornata alle ");
+document.write(ora+':'+min +' di ' + gg[lastUpdate.getDay()] + ', '+ lastUpdate.getDate() + ' ' + mm[lastUpdate.getMonth()] + ' ' + aa)
+//-->
+</SCRIPT>
+</strong></font></div>
+
+<!--/
+
+Nella sezione <a href="#Esami">Esami</a> è disponibili il testo della prova scritta del 26/1.<br>
+L'elenco degli ammessi all'orale verrà pubblicato sul canale Teams entro lunedì 29/1.
+
+
+Sul canale Teams del corso è disponibile l'elenco degli ammessi all'orale relativi alla prova scritta del 26/1.<br>
+Su <a href="http://delphi.uniroma2.it/totem/jsp/index.jsp">Delphi</a> sono aperte le prenotazioni per la prova scritta del 16/2. È possibile prenotarsi fino al 14/2. Dopo la chiusura delle prenotazioni verrà comunicata qui la suddivisione delle aule.
+
+
+<p align="center">
+<table border="1" cellpadding="10" width="60%" bgcolor="#eefc57" bordercolorlight="#FFFFFF">
+<tr><td width="100%"><p align="left"><font color="#000000" size="4"><strong>
+L'elenco degli ammessi all'orale relativi alla prova scritta del 14/2 verrà pubblicato sul canale Teams entro domenica 16/2.
+
+<tr><td width="100%"><p align="left"><font color="#000000" size="4"><strong>
+Testo della prova scritta del 21/1:
+<a href="aa2526/an1-260121.pdf">
+<img src="Images/pdf.gif" border="0" width="30"></a><br>
+</strong>
+</td></tr>
+</table>
+</p>
+
+
+Il testo della prova scritta del 23/1 è disponibile nella sezione esami. 
+Gli ammessi all'orale verranno pubblicati su Teams entro la mattina di lunedì 26/1. Le prenotazioni del prossimo appello verranno aperte il 26/1.
+
+
+
+La seconda prova scritta si svolgerà il 13/2 nelle aule C1 e C2 secondo la seguente suddivisione:<br>
+<p align="center">
+Aula C2: lettera iniziale del cognome da A a F.<br>
+
+Aula C1: lettera iniziale del cognome da G a Z.<br>
+</p>
+Ogni studente deve presentarsi alle 13:45 all'ingresso della propria aula con un documento d'identità e una penna. Durante la prova scritta i cellulari devono essere rigorosamente spenti e riposti nello zaino. Si ricorda che per sostenere l'esame di Analisi Matematica 2 è necessario aver già sostenuto l'esame di Analisi Matematica 1.
+
+
+
+<p align="center">
+<table border="1" cellpadding="10" width="50%" bgcolor="#eefc57" bordercolorlight="#FFFFFF">
+<tr><td width="100%"><p align="left"><font color="#000000" size="4"><strong>
+Il testo della prova scritta del 13/2 è disponibile nella sezione esami. 
+Gli ammessi all'orale verranno pubblicati su Teams entro la sera di domenica 15/2. 
+</strong>
+</td></tr>
+</table>
+</p>
+
+
+
+/-->
+
+
+<body bgcolor="#FBCB91">
+<p align="center"><font size="6">
+<strong>Analisi Matematica 2</strong></font>
+<br>
+<font size="3"><strong>per Ing. Meccanica e Energetica - a.a. 2025-26</strong>
+</font></p>
+
+<p align="center"><a name="1"></a><font size="4">
+<table border="0" cellpadding="2" width="75%" bgcolor=""
+bordercolorlight="#000000">
+
+<p align="center"><a name="1"></a><font size="4">
+<strong>ORARIO (22 Settembre 2025 - 16 Gennaio 2026)</strong></font></p>
+<blockquote>
+    <div align="center"><center>
+    <table border="3" cellpadding="2" bgcolor="#eefc57" 
+    bordercolor="#000000" bordercolordark="#000000"
+    bordercolorlight="#000000">
+       <tr>
+            <td align="center" width="150"><font size="3"><strong>Mercoledì</strong></font></td>
+            <td align="center" width="150"><font size="3"><strong>Giovedì</strong></font></td>
+            <td align="center" width="150"><font size="3"><strong>Venerdì</strong></font></td>
+        </tr>
+        <tr>
+            <td align="center"><font size="3"><strong>11:30-13:15</strong></font></td>
+            <td align="center"><font size="3"><strong>11:30-13:15</strong></font></td>
+            <td align="center"><font size="3"><strong>9:30-11:15</strong></font></td>
+        </tr>
+         <tr>
+            <td align="center"><font size="3"><strong>Aula A4</strong></font></td>
+            <td align="center"><font size="3"><strong>Aula A4</strong></font></td>
+            <td align="center"><font size="3"><strong>Aula B4</strong></font></td>
+        </tr>
+    </table>
+<br>
+
+
+
+
+<table border="0" cellpadding="2" width="75%" bgcolor="" bordercolorlight="#000000">
+<tr><td width="100%"><p align="left">
+<font size="3"><strong>
+<br>
+<font size="4">DOCENTE</font>:
+Prof. Roberto Tauraso - e-mail: <img style="vertical-align:bottom" src="Images/email.png" border=0 width="240" height="20">
+<br>
+<br>
+<font size="4">CODOCENTE</font>:
+<a href="https://sites.google.com/view/luca-giorgetti">Prof. Luca Giorgetti</a>. 
+<br><br>
+
+<font size="4">PROGRAMMA DEL CORSO</font><br> 
+I dettagli degli argomenti svolti si possono consultare nel <a href="#Diario">diario delle lezioni</a>. 
+<br><br>
+<table border="2" cellpadding="2" width="90%" bgcolor="#eefc57"
+bordercolor="#000000" bordercolordark="#000000"
+bordercolorlight="#000000">
+<tr><td width="20%" align="center"><font size="3"  face="Verdana"><strong>
+Serie
+</strong></font></td>
+<td><font size="3"  face="Verdana"><strong>
+Serie numeriche e serie di potenze.
+</strong></font></td>
+</tr>
+<tr><td width="20%" align="center"><font size="3"  face="Verdana"><strong>
+Funzioni di più variabili
+</strong></font></td>
+<td><font size="3"  face="Verdana"><strong>
+Limiti e continuità, calcolo differenziale ed estremi liberi, funzioni implicite ed estremi vincolati, integrali multipli, curve e integrali curvilinei, superfici e integrali di superficie.
+</strong></font></td>
+</tr>
+<tr><td width="20%" align="center"><font size="3"  face="Verdana"><strong>
+Analisi vettoriale
+</strong></font></td>
+<td><font size="3"  face="Verdana"><strong>
+Campi vettoriali, integrali curvilinei e integrali di flusso, formula di Gauss-Green, teoremi della divergenza e del rotore.
+</strong></font></td>
+</tr>
+</table>
+<br>
+<font size="4">Testi consigliati:</font><br> 
+- M. Bramanti, C. D. Pagani, S. Salsa, <i>Analisi Matematica 2</i>,  Zanichelli<br>
+- M. Bertsch, R. Dal Passo, L. Giacomelli, <i>Analisi Matematica</i>, McGraw-Hill<br>
+- P. Marcellini, C. Sbordone, <i>Esercitazioni di Analisi Matematica 2 (prima e seconda parte)</i>,  Zanichelli<br>
+- B. P. Demidovich, <i>Esercizi e problemi di Analisi Matematica</i>, Ed. Riuniti<br>
+<br>
+
+
+<font size="4">ORARIO DI RICEVIMENTO</font>:
+<strong>
+in aula dopo ogni lezione. 
+</strong><br><br>
+
+<font size="4">LINK UTILI</font><br>
+<a href="https://www.wolframalpha.com">Wolframalpha</a>: 
+<a href="https://www.wolframalpha.com/input?i=sum+k%5E2%2Fk%21%2C+k%3D1+to+infinity">somma di una serie</a>,
+<a href="https://www.wolframalpha.com/input?i=partial+derivative+e%5Ey%28y%5E2-x%5E2%29">derivate parziali</a>,
+<a href="https://www.wolframalpha.com/input?i=stationary+points+x*y*%281-x-y%29">punti critici di una funzione in due variabili</a>.<br>
+<a href="https://www.desmos.com/2d?lang=it">Desmos 2D</a>:
+<a href=https://www.desmos.com/calculator/m1vdmwzmbi>disequazione in due variabili</a>, <a href=https://www.desmos.com/calculator/lhxlong8dy>sistema di due disequazioni</a>.<br>
+<a href="https://www.desmos.com/3d?lang=it">Desmos 3D</a>:
+<a href=https://www.desmos.com/3d/mwzxw1mwdv>grafici di funzioni in due variabili</a>, <a href=https://www.desmos.com/3d/ejzlxykq1w>toro</a>,
+<a href=https://www.desmos.com/3d/vxlk5kjiwe>elica</a>.
+<br><br>
+
+<font size="4">TEAMS</font>:
+<strong><a href="https://teams.microsoft.com/l/team/19%3aGYXcaE3DSGBqZfAhsO2G4l7E_UXVPzrEVWW0xxs5k0k1%40thread.tacv2/conversations?groupId=f044f8ad-e3c8-4d9f-b5fc-1f9c95d2899d&tenantId=24c5be2a-d764-40c5-9975-82d08ae47d0e"
+><font color="#0000FF">TAURASO-80300053-ANALISI_MATEMATICA_II_1
+</font></a><br>
+Il canale Teams del corso viene usato solo per comunicazioni e come deposito di materiale didattico. 
+In particolare sono disponibili le video lezioni del 2021/22 (vedi File nel canale Lezioni).
+<br><br>
+
+<font size="4" id="Esami">ESAMI</font><br>
+Per sostenere l'esame di Analisi Matematica 2 bisogna aver già sostenuto l'esame di Analisi Matematica 1.
+L'esame consiste di una prova scritta e di una prova orale. 
+Per essere ammessi alla prova orale è necessario che la prova scritta sia sufficiente. <br>
+La prova scritta dura due ore e consiste nello svolgimento di quattro esercizi. Durante la prova non si possono usare libri e appunti.
+La prova orale consiste in una discussione sugli argomenti del programma d'esame.
+Per la prova orale è richiesta la conoscenza di tutte le definizioni, di tutti gli enunciati dei teoremi con le relative dimostrazioni elencate e di tutti gli esempi/esercizi svolti durante il corso.<br> 
+Se anche la prova orale è sufficiente e lo studente accetta il voto finale, si verbalizza e l'esame è concluso, altrimenti è necessario rifare la prova scritta in uno degli appelli successivi.
+<br><br>
+In questo anno accademico sono previsti 6 appelli d'esame
+(il calendario completo è riportato <a href="http://ingegneriameccanica.uniroma2.it/calendari-2/calendario-degli-esami/esami-laurea-triennale/">QUI</a>):<br><br>
+2 appelli nella sessione invernale: 23/1/2026, 13/2/2026<br>
+2 appelli nella sessione estiva: 19/6/2026 e 10/7/2026<br>
+2 appelli nella sessione autunnale: xx/9/2026 e xx/9/2026
+<br><br>
+Le soluzioni delle prove scritte verranno pubblicate alla fine della corrispondente sessione d'esame.<br>
+<center>
+<table border="3" cellpadding="2" width="650"
+ bgcolor="#eefc57" bordercolor="#000000"
+bordercolordark="#000000" bordercolorlight="#000000">
+<tr>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>Data</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>Testo</strong>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<strong>Svolgimento</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>Data</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>Testo</strong>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<strong>Svolgimento</strong>
+</td>
+</tr>
+<tr>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>23/1/2026</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2526/an2-260123.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2526/an2-260123sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>13/2/2026</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2526/an2-260213.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2526/an2-260213sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+</table>
+</center>
+<br>
+
+<br>
+Queste sono le prove scritte degli anni precedenti:<br>
+<center>
+<table border="3" cellpadding="2" width="650"
+ bgcolor="#eefc57" bordercolor="#000000"
+bordercolordark="#000000" bordercolorlight="#000000">
+<tr>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>Data</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>Testo</strong>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<strong>Svolgimento</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>Data</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>Testo</strong>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<strong>Svolgimento</strong>
+</td>
+</tr>
+<tr>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>24/1/2025</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2425/an2-250124.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2425/an2-250124sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>14/2/2025</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2425/an2-250214.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2425/an2-250214sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>20/6/2025</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2425/an2-250620.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2425/an2-250620sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>11/7/2025</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2425/an2-250711.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2425/an2-250711sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<tr>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>4/9/2025</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2425/an2-250904.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2425/an2-250904sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>18/9/2025</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2425/an2-250918.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2425/an2-250918sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+</table>
+</center>
+<br>
+
+<center>
+<table border="3" cellpadding="2" width="650"
+ bgcolor="#eefc57" bordercolor="#000000"
+bordercolordark="#000000" bordercolorlight="#000000">
+<tr>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>Data</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>Testo</strong>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<strong>Svolgimento</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>Data</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>Testo</strong>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<strong>Svolgimento</strong>
+</td>
+</tr>
+<tr>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>26/1/2024</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2324/an2-240126.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2324/an2-240126sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>16/2/2024</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2324/an2-240216.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2324/an2-240216sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>21/6/2024</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2324/an2-240621.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2324/an2-240621sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>12/7/2024</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2324/an2-240712.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2324/an2-240712sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>4/9/2024</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2324/an2-240904.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2324/an2-240904sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>19/9/2024</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2324/an2-240919.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2324/an2-240919sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+</table>
+</center>
+<br>
+
+<center>
+<table border="3" cellpadding="2" width="650"
+ bgcolor="#eefc57" bordercolor="#000000"
+bordercolordark="#000000" bordercolorlight="#000000">
+<tr>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>Data</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>Testo</strong>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<strong>Svolgimento</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>Data</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>Testo</strong>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<strong>Svolgimento</strong>
+</td>
+</tr>
+<tr>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>27/1/2023</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2324/an2-240126.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2223/an2-230127sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>17/2/2023</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2223/an2-230217.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2223/an2-230217sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>23/6/2023</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2223/an2-230623.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2223/an2-230623sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>14/7/2023</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2223/an2-230714.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2223/an2-230714sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>4/9/2023</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2223/an2-230904.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2223/an2-230904sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>15/9/2023</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2223/an2-230915.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2223/an2-230915sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+</table>
+</center>
+<br>
+
+<center>
+<table border="3" cellpadding="2" width="650"
+ bgcolor="#eefc57" bordercolor="#000000"
+bordercolordark="#000000" bordercolorlight="#000000">
+<tr>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>Data</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>Testo</strong>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<strong>Svolgimento</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>Data</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>Testo</strong>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<strong>Svolgimento</strong>
+</td>
+</tr>
+<tr>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>21/1/2022</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2122/an2-220121.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2122/an2-220121sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>11/2/2022</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2122/an2-220211.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2122/an2-220211sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>16/6/2022</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2122/an2-220616.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2122/an2-220616sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>8/7/2022</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2122/an2-220708.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2122/an2-220708sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>2/9/2022</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2122/an2-220902.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2122/an2-220902sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<strong>14/9/2022</strong>
+</td>
+<td align="center" width="15%" >
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2122/an2-220914.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+<td align="center" width="15%">
+<font color="#000000" size="3" face="Verdana">
+<a href="aa2122/an2-220914sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+</table>
+</center>
+<br>
+
+
+<p align="center"><font size="4" id="Diario">
+<strong>DIARIO DELLE LEZIONI</strong></font></p>
+
+<div align="center"><center>
+<table border="0" cellpadding="2" width="80%" bgcolor="#eefc57"
+bordercolor="#000000" bordercolordark="#000000"
+bordercolorlight="#000000"><font size="3"><strong>
+</strong></font>
+</table>
+<table border="3" cellpadding="2" width="90%" bgcolor="#eefc57" bordercolor="#000000" bordercolordark="#000000" bordercolorlight="#000000">
+<tr><td align="center" width="5%"><font size="3" face="Verdana"><strong>Nr.</strong></font></td>
+<td align="center" width="13%"><font size="3" face="Verdana"><strong>Giorno</strong></font></td>
+<td align="center" width="65%"><font size="3" face="Verdana"><strong>Argomento</strong></font></td>
+<td align="center" width="5%"><font size="3" face="Verdana"><strong>Pdf</strong></font></td>   
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L01</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Me 24/9/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong>
+Introduzione al corso. Serie numeriche: definizione e primi esempi. Serie geometriche e serie telescopiche. Condizione necessaria per la convergenza. Criterio del confronto e criterio del confronto asintotico. 
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione01.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L02</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Gi 25/9/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong>  
+Criterio del confronto integrale. Criterio della radice e del rapporto. Criterio della convergenza assoluta e criterio di Leibniz.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione02.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L03</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Ve 26/9/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong>  
+Serie di potenze: definizione e primi esempi. Dominio di convergenza. Raggio di convergenza e sua determinazione. Cenni alla derivazione e all'integrazione termine a termine per le serie di potenze. Serie di potenze di exp(x), sin(x), cos(x), log(1+x) e arctan(x).
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione03.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#f98948"><td align="center" colspan="5">
+<font size="3" face="Verdana"><strong>
+&nbsp&nbsp Foglio di esercizi n. 1: <a href="aa2526/an2-foglio01.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img 
+src="Images/pdf.gif" border="0" width="32"></em></font></a> 
+&nbsp&nbsp  Soluzioni: <a href="aa2526/an2-foglio01sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="32"></em></font></a>
+</strong></font></td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L04</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Me 1/10/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong>  
+Svolgimento di alcuni esercizi del foglio di esercizi n. 1.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione04.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L05</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Gi 2/10/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Introduzione alle funzioni in più variabili. Primi esempi, rappresentazione grafica e curve di livello.
+R<sup><small>n</small></sup> è un spazio vettoriale con prodotto scalare. Topologia in R<sup><small>n</small></sup>, definizione di intorno sferico, punto interno, esterno e di frontiera. Definizioni di limite di una successione e di limite di una funzione. Teorema di Bolzano-Weierstrass e teorema ponte.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione05.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L06</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Ve 3/10/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Vari esempi svolti di calcolo di limiti. Definizione di continuità.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione06.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L07</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Me 8/10/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong>  
+Teorema di Weierstrass. Definizioni di derivata direzionale, derivata parziale e grandiente con esempi. Derivabilità e differenziabilità. Approssimazione locale al primo ordine. Significato geometrico del gradiente e equazione del piano tangente.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione07.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#f98948"><td align="center" colspan="5">
+<font size="3" face="Verdana"><strong>
+&nbsp&nbsp Foglio di esercizi n. 2: <a href="aa2526/an2-foglio02.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img 
+src="Images/pdf.gif" border="0" width="32"></em></font></a> 
+&nbsp&nbsp  Soluzioni: <a href="aa2526/an2-foglio02sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="32"></em></font></a>
+</strong></font></td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L08</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Gi 9/10/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong>  
+Svolgimento di alcuni esercizi del foglio di esercizi n. 2.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione08.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L09</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Ve 10/10/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong>  
+Derivazione di funzione composta. Teorema del valor medio in dimensione n. Condizione sufficiente per la differenziabilità.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione09.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L10</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Me 15/10/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong>  
+Derivate parziali seconde e matrice hessiana. Teorema di Schwarz. Teorema di Fermat per n>1. Polinomio di Taylor di ordine 2 e sue proprietà. Definizione di punto di massimo/minimo assoluto/relativo e di punto di sella con esempi. 
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione10.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L11</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Gi 16/10/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong>  
+Forme quadratiche e il loro segno. Condizioni sufficienti per la matrice hessiana per la determinazione della natura di un punto stazionario.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione11.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L12</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Ve 17/10/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong>  
+Teorema delle funzioni implicite e qualche esempio di applicazione.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione12.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#f98948"><td align="center" colspan="5">
+<font size="3" face="Verdana"><strong>
+&nbsp&nbsp Foglio di esercizi n. 3: <a href="aa2526/an2-foglio03.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img 
+src="Images/pdf.gif" border="0" width="32"></em></font></a> 
+&nbsp&nbsp  Soluzioni: <a href="aa2526/an2-foglio03sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="32"></em></font></a>
+</strong></font></td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L13</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Me 22/10/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong>  
+Svolgimento di alcuni esercizi del foglio di esercizi n. 3.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione13.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L14</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Gi 23/10/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong>
+Teorema delle funzioni implicite per sistemi. Massimi e minimi vincolati. Teorema dei moltiplicatori di Lagrange con esempi. 
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione14.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L15</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Ve 24/10/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Vari esempi di determinazioni di massimi e minimi vincolati con il metodo dei moltiplicatori di Lagrange. 
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione15.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#f98948"><td align="center" colspan="5">
+<font size="3" face="Verdana"><strong>
+&nbsp&nbsp Foglio di esercizi n. 4: <a href="aa2526/an2-foglio04.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img 
+src="Images/pdf.gif" border="0" width="32"></em></font></a> 
+&nbsp&nbsp  Soluzioni: <a href="aa2526/an2-foglio04sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="32"></em></font></a>
+</strong></font></td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L16</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Me 29/10/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Svolgimento di alcuni esercizi del foglio di esercizi n. 4.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione16.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L17</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Gi 30/10/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong>
+Integrali doppi. Definizione e proprietà. Insiemi misurabili. Condizione di integrabilità. Insiemi semplici rispetto agli assi e relative formule di riduzione a integrali iterati. Primi esempi di calcolo. 
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione17.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L18</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Ve 31/10/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Altri esempi svolti di integrali doppi. Cambio di variabili e matrice jacobiana. Formula del cambio di variabili per gli integrali doppi. Integrazione in coordinate polari con esempio.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione18.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L19</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Me 5/11/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Vari esempi di integrali doppi con cambio di variabili. Calcolo di volumi come integrali doppi. 
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione19.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L20</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Gi 6/11/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Integrali tripli. Integrazione per fili e integrazione per sezioni con esempi. Cambio di variabili per gli integrali tripli. Integrazione in coordinate cilindriche e sferiche con esempi.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione20.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#f98948"><td align="center" colspan="5">
+<font size="3" face="Verdana"><strong>
+&nbsp&nbsp Foglio di esercizi n. 5: <a href="aa2526/an2-foglio05.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img 
+src="Images/pdf.gif" border="0" width="32"></em></font></a> 
+&nbsp&nbsp  Soluzioni: <a href="aa2526/an2-foglio05sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="32"></em></font></a>
+</strong></font></td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L21</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Ve 7/11/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Svolgimento di alcuni esercizi del foglio di esercizi n. 5.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione21.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L22</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Me 12/11/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong>
+Altri esempi di calcolo di integrali tripli in coordinate sferiche e cilindriche. Definizione di baricentro con esempi. Formula di Pappo-Guldino per volumi di rotazione. Momento di inerzia di un solido con esempi.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione22.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L23</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Gi 13/11/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Curve (parametriche) in R<sup><small>n</small></sup> con esempi. Curve regolari e vettore tangente. Integrali curvilinei di prima specie: definizione e  esempi. Lunghezza e baricentro di una curva.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione23.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L24</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Ve 14/11/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Curve piane in coordinate polari. Campi vettoriali. Integrali curvilinei di seconda specie: definizione e esempi. Campi vettoriali conservativi e funzione potenziale.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione24.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L25</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Me 19/11/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Caratterizzazione dei campi conservativi. Campo irrotazionale. Omotopia e curve omotope in un insieme aperto e connesso. Invarianza omotopica degli integrali curvilinei di campi irrotazionali.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione25.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#b3b3ff">
+<td align="center"><font size="3" face="Verdana"><strong>
+</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Gi 20/11/25</strong></font></td>
+<td align="left" colspan="3"><font size="3" face="Verdana"><strong>
+La lezione è annullata. L'aula è occupata per consentire il primo appello degli esami del semestre filtro per l'accesso a Medicina.
+</strong></font></td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L26</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Ve 21/11/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Vari esempi di campi vettoriali con discussione delle loro proprietà. I campi vettoriali centrali sono conservativi. 
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione26.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#f98948"><td align="center" colspan="5">
+<font size="3" face="Verdana"><strong>
+&nbsp&nbsp Foglio di esercizi n. 6: <a href="aa2526/an2-foglio06.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img 
+src="Images/pdf.gif" border="0" width="32"></em></font></a> 
+&nbsp&nbsp  Soluzioni: <a href="aa2526/an2-foglio06sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="32"></em></font></a>
+</strong></font></td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L27</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Me 26/11/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Svolgimento di alcuni esercizi del foglio di esercizi n. 6.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione27.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L28</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Gi 27/11/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Domini s-decomponibili. Formula di Gauss-Green. Vari esempi di applicazioni della formula.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione28.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#b3b3ff">
+<td align="center"><font size="3" face="Verdana"><strong>
+</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Ve 28/11/25</strong></font></td>
+<td align="left" colspan="3"><font size="3" face="Verdana"><strong>
+La lezione è annullata. L'aula è occupata per consentire il primo esonero dalla prova scritta dell'esame di Analisi Matematica 1.
+</strong></font></td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L29</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Me 3/12/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Vari esempi di applicazione della formula di Gauss-Green. L'area di una figura piana come integrale curvilineo.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione29.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L30</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Gi 4/12/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Prodotto vettoriale. Definizione di divergenza e rotore. Superfici (parametriche) regolari. Vettore normale e piano tangente a una superficie. Parametrizzazione di superfici cartesiane, del cilindro e della sfera. Integrale di superficie: definizione e esempi. Area e baricentro di una superficie.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione30.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L31</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Ve 5/12/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Momento di inerzia di una superficie. Formula di Pappo-Guldino per superfici di rotazione. Orientazione di una superficie. 
+Il bordo di una superficie e la sua orientazione. Superfici regolari a pezzi.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione31.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#f98948"><td align="center" colspan="5">
+<font size="3" face="Verdana"><strong>
+&nbsp&nbsp Foglio di esercizi n. 7: <a href="aa2526/an2-foglio07.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img 
+src="Images/pdf.gif" border="0" width="32"></em></font></a> 
+&nbsp&nbsp  Soluzioni: <a href="aa2526/an2-foglio07sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="32"></em></font></a>
+</strong></font></td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L32</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Me 10/12/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Svolgimento di alcuni esercizi del foglio di esercizi n. 7.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione32.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L33</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Gi 11/12/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Flusso di un campo vettoriale attraverso una superficie orientata: definizione e esempi.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione33.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L34</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Ve 12/12/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Insiemi semplici e s-decomponibili in R<sup><small>3</small></sup>. Teorema della divergenza con esempi.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione34.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L35</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Me 17/12/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Teorema del rotore con esempi.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione35.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L36</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Gi 18/12/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Vari esempi di applicazione dei teorema della divergenza e del rotore.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione36.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#f98948"><td align="center" colspan="5">
+<font size="3" face="Verdana"><strong>
+&nbsp&nbsp Foglio di esercizi n. 8: <a href="aa2526/an2-foglio08.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img 
+src="Images/pdf.gif" border="0" width="32"></em></font></a> 
+&nbsp&nbsp  Soluzioni: <a href="aa2526/an2-foglio08sol.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="32"></em></font></a>
+</strong></font></td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L37</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Ve 19/12/25</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Svolgimento di alcuni esercizi del foglio di esercizi n. 8.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione37.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#ff3737"><td align="center" colspan="5">
+<img src="Images/goldenbell-bar.gif" align="middle"><br>
+<img src="Images/xmas-math.gif" align="middle"> 
+<font size="4" face="Verdana"><strong>Vacanze di Natale</strong></font>
+<img src="Images/xmas-math.gif" align="middle"><br>
+<img src="Images/goldenbell-bar.gif" align="middle">
+</td></tr>
+<tr bgcolor="#f98948"><td align="center" colspan="5">
+<font size="3" face="Verdana"><strong>
+&nbsp&nbsp Esercizi di riepilogo: <a href="aa2526/an2-esercizidiriepilogo.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="32"></em></font></a><BR> 
+Da svolgere nel corso delle rimanenti lezioni di gennaio
+</em></font></a> 
+</strong></font></td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L38</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Me 7/1/26</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Esercizi di riepilogo - Prima parte.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione38.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L39</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Gi 8/1/26</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Esercizi di riepilogo - Seconda parte.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione39.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L40</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Ve 9/1/26</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Esercizi di riepilogo - Terza parte.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione40.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L41</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Me 14/1/26</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Esercizi di riepilogo - Quarta parte.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione41.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+<tr bgcolor="#eefc57">
+<td align="center"><font size="3" face="Verdana"><strong>
+L42</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Gi 15/1/26</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong> 
+Esercizi di riepilogo - Quinta parte.
+</strong></font></td>
+<td align="center">
+<a href="aa2526/an2-lezione42.pdf">
+<font face="Verdana" color="#000000" size="3"><em><img
+src="Images/pdf.gif" border="0" width="30"></a>
+</td>
+</tr>
+</table>
+</center>
+<br><br>
+</body>
+</html>
+<!--
+ 
+<tr bgcolor="#abcdef">
+<td align="center"><font size="3" face="Verdana"><strong>
+--</strong></font></td>
+<td align="center"><font size="3" face="Verdana"><strong>
+Ve 1/11/24</strong></font></td>
+<td align="left"><font size="3" face="Verdana"><strong>
+Ognissanti
+</strong></font></td>
+</tr>
+-->
+
+
+
+
+
+
